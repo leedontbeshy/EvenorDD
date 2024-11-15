@@ -1,0 +1,62 @@
+mới khởi động game:
+1. Màn hình đăng nhập/ đăng kí 
+-> lựa chọn đăng nhập, đăng kí hoặc thoát
+lựa chọn 1,2,3
+
+       System.out.println("-------------------------------");
+        System.out.println("|                             |");
+        System.out.println("|           EVENORDD          |");
+        System.out.println("|                             |");
+        System.out.println("|   Press the key to select.  |"); 
+        System.out.println("|                             |");
+        System.out.println("|     -------------------     |");
+        System.out.println("|     |    1.REGIST     |     |");
+        System.out.println("|     |    2.lOG IN     |     |");
+        System.out.println("|     |    3.EXIT       |     |");
+        System.out.println("|     -------------------     |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("-------------------------------");
+
+
+        System.out.println("-------------------------------");
+        System.out.println("|                             |");
+        System.out.println("|           EVENORDD          |");
+        System.out.println("|                             |");
+        System.out.println("|            REGIST           |"); 
+        System.out.println("|                             |");
+        System.out.println("|   -----------------------   |");
+        System.out.println("|   |Account :            |   | ");
+        System.out.println("|   |Password:            |   | ");
+        System.out.println("|   |Re-Type :            |   | ");
+        System.out.println("|   -----------------------   |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("-------------------------------");
+
+        System.out.println("Sorry, you entered incorrectly. Please try again!");
+
+        số dư ban đầu = 100k
+        bet 50k
+        số dư sau khi đặt cược = 50k
+
+         System.out.println("-------------------------------");
+        System.out.println("|                             |");
+        System.out.println("|           EVENORDD          |");
+        System.out.println("|                             |");
+        System.out.println("|            WALLET           |"); 
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("|                             |");
+        System.out.println("-------------------------------");

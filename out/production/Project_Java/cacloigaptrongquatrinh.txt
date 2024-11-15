@@ -1,0 +1,35 @@
+Cannot invoke match(String) on the primitive type longJava(67108978)
+Lỗi "Cannot invoke match(String) on the primitive type long" xuất hiện khi bạn cố gắng sử dụng một phương thức (matches(String)) mà chỉ áp dụng cho các đối tượng chuỗi (String) trên kiểu dữ liệu nguyên thủy (long). Để kiểm tra xem giá trị nhập vào có phải là số hay không, bạn cần sử dụng loại dữ liệu chuỗi (String) thay vì long.
+
+Dưới đây là cách tiếp cận đúng để đảm bảo rằng người dùng chỉ nhập số và sau đó chuyển đổi chuỗi đó thành kiểu long.
+
+Ví dụ mã đầy đủ:
+java
+import java.util.Scanner;
+
+public class NumberOnlyInput 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        String input;
+        long number = 0;
+
+        while (true) {
+            System.out.println("Please enter a number:");
+            input = scanner.nextLine();
+
+            // Kiểm tra xem chuỗi đầu vào có phải là số hay không
+            if (input.matches("\\d+")) {
+                try {
+                    number = Long.parseLong(input);
+                    System.out.println("You entered a valid number: " + number);
+                    break;
+                } catch (NumberFormatException e) {
+                    System.out.println("Invalid input. Please enter only numbers.");
+                }
+            } else {
+                System.out.println("Invalid input. Please enter only numbers.");
+            }
+        }
+
+        scanner.close();
+    }

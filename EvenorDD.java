@@ -18,7 +18,7 @@ public class EvenorDD{
 
     //#region PlayGame
 
-    static long currentBalance = 100001;
+    static long currentBalance = 100000;
     static long Recharge;
     static long inputAmountToBet;
     static long betAmount;
@@ -67,7 +67,7 @@ public class EvenorDD{
 
     public static void main(String[] args) {
         
-       MainMenu.MainMenu();
+       Bootscreen.Bootscreen();
 
         
     }
